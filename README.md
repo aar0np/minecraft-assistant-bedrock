@@ -1,12 +1,12 @@
 # Minecraft Assistant - Bedrock
-A console and API-based AI assistant built in Python using LangChain and OpenAI; designed to run on DataStax Hyper-Converged Database (HCD). API service can be used with this GUI project: https://github.com/aar0np/Minecraft-AI-Assistant-UI
+A console and API-based AI assistant built in Python using LangChain and Bedrock; designed to run on DataStax Enterprise (DSE) or Hyper-Converged Database (HCD).
 
 ## Requirements
  - Built on Python 3.12
  - One of the following vector-enabled, Cassandra-compatible databases:
  	- DSE 6.9
  	- HCD 1.0
- 	- Astra DB (_connection code is commented-out, but present_)
+ 	- Astra DB
  - Install the following libraries w/ Pip:
     - langchain-astradb
     - langchain-aws
