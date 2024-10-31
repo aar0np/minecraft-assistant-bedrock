@@ -45,7 +45,8 @@ awsClient = awsSession.client(
 # Bedrock chat
 llm = ChatBedrock(
     client=awsClient,
-    model_id="anthropic.claude-3-haiku-20240307-v1:0",
+    #model_id="anthropic.claude-3-haiku-20240307-v1:0",
+    model_id="anthropic.claude-3-sonnet-20240229-v1:0",
     region_name=AWS_REGION
 )
 
